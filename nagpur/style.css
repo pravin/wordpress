@@ -1,0 +1,383 @@
+/*
+Theme Name: Nagpur
+Theme URI: http://insanitybegins.com/dev/themes/
+Description: Theme Nagpur
+Version: 0.1
+Author: Pravin Paratey
+Author URI: http://pravin.insanitybegins.com
+*/
+
+/* ---------------------------------------- Global ---------------------------------------- */
+body {
+	margin:10px;padding:0;
+	line-height:180%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans Condensed", "Trebuchet MS", Sans-serif;
+	font-size:10pt;
+	background-image:url('images/bg.jpg');
+}
+
+td {
+	font-size:10pt;
+	line-height:180%;
+}
+
+#wrapper {
+	width:900px;
+	margin:0 auto;
+}
+
+/* --------------------------------------  Top Band --------------------------------------- */
+
+#topband {
+}
+
+#logo {
+	background-color:#fff;
+	padding:40px;
+	text-align:center;
+}
+
+#logo img {
+	border:0;
+}
+
+#logo a {
+	color:#393;
+	font-family:Georgia, Constantia, serif;
+	font-style:italic;
+	font-size:24pt;
+}
+
+#topnav {
+	background:url('images/header.gif') 100% 0 no-repeat;
+	text-align:right;
+	padding:3px;
+	padding-right:25px;
+}
+
+#topnav ul, #topnav li {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	display:inline;
+}
+
+#topnav li a {
+	color:#9f6;
+	text-decoration:none;
+	padding-left:24px;
+	padding-bottom:10px;
+	padding-top:4px;
+}
+
+#topnav li a img {
+	border:0;
+	vertical-align:absmiddle;
+}
+
+#topnav li a:hover {
+	color:#ff0;
+}
+
+/* ---------------------------------------- Header ---------------------------------------- */
+
+#header {
+
+}
+
+#crumb, .bbcrumb {
+	padding-bottom:20px;
+}
+
+/* ---------------------------------------- Links ---------------------------------------- */
+
+#content a {
+	color:#036;
+}
+#content a:hover {
+	background-color:#ffc;
+}
+/* --------------------------------------- Content --------------------------------------- */
+
+#content {
+	background-color:#fff;
+	float:left;
+	padding:20px;
+}
+
+#content h1 {
+	font:14pt "Eurostile", Georgia, Serif;
+	color:#c30;
+	padding:0;
+	margin:0;
+	font-variant:small-caps;
+}
+#content h1 a {
+	color:#c30;
+	text-decoration:none;
+	background-color:transparent;
+}
+#content h1 a:hover {
+	text-decoration:none;
+}
+#content h1 em{
+	color:#999;
+	font-size:8pt;
+	font-style:italic:
+}
+#content h1 img {
+	border:0;
+	vertical-align:middle;
+}
+
+#content h2 {
+	font:13pt Georgia, Serif;
+	color:#c30;
+}
+#content h3 {
+	font:12pt Georgia, Serif;
+	color:#564;
+}
+
+#content blockquote {
+	background-image:url('images/quote.gif');
+	background-repeat:no-repeat;
+	padding-left:60px;
+	padding-right:60px;
+	margin:0;
+}
+
+#content code {
+	color:#730;
+}
+
+/* ---------------------------------------- Section Nav ---------------------------------------- */
+
+#sectionnav {
+	border-top:1px solid #fc9;
+	border-bottom:1px solid #fc9;
+	background-color:#ffc;
+	text-align:center;
+	padding:2px;
+}
+
+#bordertop {
+	border-top:1px solid #fc9;
+}
+
+/* ---------------------------------------- Post Entries ---------------------------------------- */
+
+.post {
+	border-bottom:1px dotted #ccc;
+	margin-bottom:20px;
+}
+
+.entry img, #falbum img {
+	border:1px solid #999;
+	padding:4px;
+	background-color:#eee;
+}
+.date {
+	text-align:right;
+	font:10pt Georgia, Serif;
+	color:#888;
+}
+.byline a {
+	text-decoration:none;
+}
+.byline a:hover {
+	text-decoration:underline;
+}
+
+img.emote {
+	vertical-align:middle;
+	border:0px;padding:0px;
+	background-color:transparent;
+	border:0px;
+}
+
+/* ---------------------------------------- Panes ---------------------------------------- */
+#left-pane {
+	width:550px;
+	float:left;
+	padding:20px;
+}
+
+#right-pane {
+	width:220px;
+	float:right;
+	padding-right:20px;
+}
+
+#right-pane h2 {
+	padding:5px 10px;
+	text-transform:uppercase;
+	margin-top:20px;
+	margin-bottom:0;
+	font-size:8pt;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Trebuchet, Sans-serif;
+	color:#933;
+	clear:both;
+}
+
+#right-pane img {
+	border:0;
+	vertical-align:middle;
+}
+
+#right-pane ul {
+	list-style-type:none;
+	padding:0;
+	margin:0 0 20px;
+	border:2px solid #cde9a7;
+}
+
+#right-pane ul li {
+	border-bottom:1px dotted #cde9a7;
+	background-image:none;
+	background-color:#fffedd;
+}
+
+
+#right-pane ul li a {
+	text-decoration:none;
+	display:block;
+	padding:4px;
+}
+#right-pane ul li a:hover {
+	background-color:#dffbb9;
+}
+
+ul.fancy {
+	padding:0;margin:0;
+	margin-top:10px;
+}
+ul.fancy li {
+	list-style-type:none;
+	padding-left:20px;
+	background-image:url('images/bullet.gif');
+	background-repeat:no-repeat;
+	background-position:0 5px;
+}
+.cascade {
+	clear:both;
+}
+
+/* ---------------------------------------- Comments ---------------------------------------- */
+
+.post-comments ol {
+	list-style-type:none;
+	padding:0;margin:0;
+}
+
+.comment-entry, .comment-entry-author, .comment-entry-alt, .comment-entry-author-alt {
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.comment-entry-alt {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color:#f6f6f6;
+}
+
+.comment-entry-author {
+	background-color:#dffbb9;
+}
+
+.comment-entry-author-alt {
+	border-top:1px solid #cde9a7;
+	border-bottom:1px solid #cde9a7;
+	background-color:#dffbb9;
+}
+
+.comment-body {
+}
+
+.comment-info {
+	padding-bottom:2px;
+	font-size:8pt;
+}
+
+.comment-info b {
+	font-size:11pt;
+	font-weight:normal;
+}
+
+.comment-info img {
+	border:1px solid #ccc;
+	vertical-align:top;
+	float:right;
+}
+
+#comment-form {
+	margin-top:20px;
+	width:550px;
+	line-height:120%;
+	font-size:9pt;
+}
+
+.comment-left {
+	float:left;
+	width:180px;
+}
+.comment-right {
+	float:left;
+	width:370px;
+}
+.commentbox {
+	width:370px;
+	height:150px;
+}
+.formactions{
+	padding-bottom:0;
+}
+
+/* -- Footer -- */
+#footer {
+	clear:both;
+	background-image:url('images/footer.gif');
+	background-position:left bottom;
+	color:#999;
+	padding-left:20px;
+	padding-right:20px;
+	text-align:center;
+	font-size:9pt;
+}
+
+#footer img {
+	border:0;
+	vertical-align:middle;
+	float:right;
+}
+
+/* -- Archives Page -- */
+.archives {
+	float:left;
+	width:550px;
+	margin-bottom:20px;
+}
+.archives ul li {
+	white-space:nowrap;
+	list-style:none;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	float:left;
+	width:120px;
+}
+
+/* -- Code markup -- */
+
+pre, pre.source-code { 
+	margin:0;
+	font-size:8pt;
+	line-height:150%;
+	word-wrap:break-word;
+}
+
+pre.source-code ol {
+	margin-left:20px;padding:0;
+}
+
